@@ -4,25 +4,11 @@ This Python script uses Selenium to automate web interactions while rotating thr
 
 ## Register Gradient
 
-- Register Via Email : [*Gradient*](https://app.gradient.network/signup?code=N5CD2N)
+- Register Via Email : [*Gradient*](https://app.gradient.network/signup?code=N09FWJ)
 
 ## Join Us
 
-[*MY CHANNEL*](https://t.me/AirdropInsiderID)
-
-        █████╗ ██╗██████╗ ██████╗ ██████╗  ██████╗ ██████╗ 
-       ██╔══██╗██║██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔══██╗
-       ███████║██║██████╔╝██║  ██║██████╔╝██║   ██║██████╔╝
-       ██╔══██║██║██╔══██╗██║  ██║██╔══██╗██║   ██║██╔═══╝ 
-       ██║  ██║██║██║  ██║██████╔╝██║  ██║╚██████╔╝██║     
-       ╚═╝  ╚═╝╚═╝╚═╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝     
-                                                           
-       ██╗███╗   ██╗███████╗██╗██████╗ ███████╗██████╗     
-       ██║████╗  ██║██╔════╝██║██╔══██╗██╔════╝██╔══██╗    
-       ██║██╔██╗ ██║███████╗██║██║  ██║█████╗  ██████╔╝    
-       ██║██║╚██╗██║╚════██║██║██║  ██║██╔══╝  ██╔══██╗    
-       ██║██║ ╚████║███████║██║██████╔╝███████╗██║  ██║    
-       ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
+[*MY CHANNEL*](https://t.me/airdropvault_id)
 
 ## Features
 
@@ -71,7 +57,7 @@ Before running the script, ensure you have the following installed:
 
 1. Clone Repository
   ```
-  git clone https://github.com/airdropinsiders/Gradient-Auto-Bot.git && cd Gradient-Auto-Bot
+  git clone https://github.com/Choki625/Gradient-bot.git && cd Gradient-bot
   ```
 2. Install Dependencies
   ```
@@ -85,3 +71,4 @@ Before running the script, ensure you have the following installed:
 
 - Proxy List: Ensure that active_proxies.txt contains a valid list of working proxies. If all proxies fail, the script will move to the next proxy.
 - Extensions: The script automatically handles the download of a Chrome extension for enhanced functionality.
+    

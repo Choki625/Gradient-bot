@@ -14,29 +14,23 @@ from dotenv import load_dotenv
 from pathlib import Path
 from fake_useragent import UserAgent
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from colorama import Fore, Style, init
 
-banner = """
-==================================================================
- █████╗ ██╗██████╗ ██████╗ ██████╗  ██████╗ ██████╗ 
-██╔══██╗██║██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔══██╗
-███████║██║██████╔╝██║  ██║██████╔╝██║   ██║██████╔╝
-██╔══██║██║██╔══██╗██║  ██║██╔══██╗██║   ██║██╔═══╝ 
-██║  ██║██║██║  ██║██████╔╝██║  ██║╚██████╔╝██║     
-╚═╝  ╚═╝╚═╝╚═╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝     
-                                                    
-██╗███╗   ██╗███████╗██╗██████╗ ███████╗██████╗     
-██║████╗  ██║██╔════╝██║██╔══██╗██╔════╝██╔══██╗    
-██║██╔██╗ ██║███████╗██║██║  ██║█████╗  ██████╔╝    
-██║██║╚██╗██║╚════██║██║██║  ██║██╔══╝  ██╔══██╗    
-██║██║ ╚████║███████║██║██████╔╝███████╗██║  ██║    
-╚═╝╚═╝  ╚═══╝╚══════╝╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝    
+# Inisialisasi Colorama
+init(autoreset=True)
 
-Join our Telegram channel for the latest updates: t.me/airdropinsiderid
+# Banner baru
+def display_header():
+    print("")
+    print(Fore.YELLOW + " ============================================")
+    print(Fore.YELLOW + "|            Gradient Network Bot            |")
+    print(Fore.YELLOW + "|               Airdrop Vault                |")
+    print(Fore.YELLOW + "|         https://t.me/airdropvault_id       |")
+    print(Fore.YELLOW + "|             github.com/Choki625            |")
+    print(Fore.YELLOW + " ============================================")
+    print("")
 
-GRADIENT AUTO BOT - Airdrop Insider
-==================================================================
-"""
-print(banner)
+display_header()
 time.sleep(1)
 
 # Load environment variables
@@ -191,3 +185,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    

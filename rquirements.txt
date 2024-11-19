@@ -1,0 +1,6 @@
+selenium
+webdriver-manager
+requests
+fake-useragent
+python-dotenv
+colorama
